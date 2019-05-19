@@ -1,0 +1,14 @@
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\bin\Debug\netcoreapp2.2\JG.FinTechTest.deps.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\bin\Debug\netcoreapp2.2\JG.FinTechTest.runtimeconfig.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\bin\Debug\netcoreapp2.2\JG.FinTechTest.runtimeconfig.dev.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\bin\Debug\netcoreapp2.2\JG.FinTechTest.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.csprojAssemblyReference.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.csproj.CoreCompileInputs.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.RazorAssemblyInfo.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.RazorAssemblyInfo.cs
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.AssemblyInfoInputs.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.AssemblyInfo.cs
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.RazorTargetAssemblyInfo.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\bin\Debug\netcoreapp2.2\JG.FinTechTest.pdb
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest\obj\Debug\netcoreapp2.2\JG.FinTechTest.pdb

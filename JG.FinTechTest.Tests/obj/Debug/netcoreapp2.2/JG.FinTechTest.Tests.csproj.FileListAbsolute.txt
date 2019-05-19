@@ -1,0 +1,17 @@
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.csprojAssemblyReference.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.csproj.CoreCompileInputs.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.AssemblyInfoInputs.cache
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.AssemblyInfo.cs
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.Tests.deps.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.Tests.runtimeconfig.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.Tests.runtimeconfig.dev.json
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.Tests.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.Tests.pdb
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\JG.FinTechTest.pdb
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.csproj.CopyComplete
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\obj\Debug\netcoreapp2.2\JG.FinTechTest.Tests.pdb
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\cjlap\OneDrive\Projects\JustGive\Recruitment-Test-v2\JG.FinTechTest.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll

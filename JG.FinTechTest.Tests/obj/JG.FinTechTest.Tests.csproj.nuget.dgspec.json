@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest.Tests\\JG.FinTechTest.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest.Tests\\JG.FinTechTest.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest.Tests\\JG.FinTechTest.Tests.csproj",
+        "projectName": "JG.FinTechTest.Tests",
+        "projectPath": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest.Tests\\JG.FinTechTest.Tests.csproj",
+        "packagesPath": "C:\\Users\\cjlap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cjlap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\JG.FinTechTest.csproj": {
+                "projectPath": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\JG.FinTechTest.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.10.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\JG.FinTechTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\JG.FinTechTest.csproj",
+        "projectName": "JG.FinTechTest",
+        "projectPath": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\JG.FinTechTest.csproj",
+        "packagesPath": "C:\\Users\\cjlap\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cjlap\\OneDrive\\Projects\\JustGive\\Recruitment-Test-v2\\JG.FinTechTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cjlap\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[12.2.5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
