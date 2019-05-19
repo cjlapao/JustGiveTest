@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Moq;
 using Xunit;
 
-namespace Tests
+namespace JG.FinTechTest.Tests
 {
     public class GiftAidCalculatorTests
     {
@@ -15,9 +15,7 @@ namespace Tests
         [InlineData(100, 25)]
         public void Calculate(double amount, double expectedValue)
         {
-            var configMoq = new Mock<IConfiguration>();
-            configMoq.Setup(p => p["settings:taxRate"]).Returns("20.0");
-            GiftAidCalculator calculator = new GiftAidCalculator(configMoq.Object);
+            GiftAidCalculator calculator = new GiftAidCalculator(MockCommon.GetIConfigService());
             if(amount > 0)
             {
                 double result = calculator.Calculate(amount);

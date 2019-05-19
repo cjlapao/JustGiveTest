@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace JG.FinTechTest.Domain
 {
-    interface IGiftAidCalculator
+    public interface IGiftAidCalculator
     {
         double Calculate(double donation);
     }

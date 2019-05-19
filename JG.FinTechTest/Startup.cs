@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JG.FinTechTest.Domain;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,7 +28,20 @@ namespace JG.FinTechTest
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .ConfigureApiBehaviorOptions(options =>
+                {
+                    options.SuppressModelStateInvalidFilter = true;
+                    options.SuppressUseValidationProblemDetailsForInvalidModelStateResponses = true;
+                });
+            services.AddSwaggerDocument(config =>
+            {
+                config.Title = "Gift Aid Service";
+                config.Version = "1.0.0";
+            });
+
+            services.AddScoped<IGiftAidCalculator, GiftAidCalculator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +59,8 @@ namespace JG.FinTechTest
 
             app.UseHttpsRedirection();
 
-            
+            app.UseSwagger();
+            app.UseSwaggerUi3();
             app.UseMvc();
         }
     }
