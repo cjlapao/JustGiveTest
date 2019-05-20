@@ -7,6 +7,8 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Configuration;
 
 namespace JG.FinTechTest
 {
@@ -19,6 +21,15 @@ namespace JG.FinTechTest
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((hostContent, config) =>
+                {
+                    Log.Logger = new LoggerConfiguration()
+                        .Enrich.FromLogContext()
+                        .MinimumLevel.Debug()
+                        .WriteTo.File("log.txt")
+                        .CreateLogger();
+                })
+                .ConfigureLogging((logConfig) => logConfig.AddSerilog())
                 .UseStartup<Startup>();
     }
 }

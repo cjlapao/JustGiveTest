@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace JG.FinTechTest.Persistence
+namespace JG.FinTechTest.Models
 {
-    public class GiftAidDeclaration : JGEntity
+    public class GiftAidDeclarationModel
     {
         [Required]
         [MaxLength(100)]
@@ -17,7 +17,7 @@ namespace JG.FinTechTest.Persistence
         public string PostCode { get; set; }
 
         [Required]
-        [Range(2,100_000, ConvertValueInInvariantCulture = true, ErrorMessage = "Please choose an amount between £2.00 and £100.000.00")]
+        [Range(2, 100_000, ConvertValueInInvariantCulture = true, ErrorMessage = "Please choose an amount between £2.00 and £100.000.00")]
         public double DonationAmount { get; set; }
     }
 }

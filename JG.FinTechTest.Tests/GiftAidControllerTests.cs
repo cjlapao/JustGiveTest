@@ -13,6 +13,7 @@ namespace JG.FinTechTest.Tests
 {
     public class GiftAidControllerTests
     {
+
         [Theory]
         [InlineData(2.0, 0.5)]
         [InlineData(-3.4, 0)]
@@ -20,10 +21,13 @@ namespace JG.FinTechTest.Tests
         [InlineData(100.0, 25.0)]
         public void GetGiftAidTest(double amount, object expectedResult)
         {
-            var giftAidController = new GiftAidController(MockCommon.GetIGiftAidCarculatorService());
+            // Mocking the giftAidController to use
+            var giftAidController = new GiftAidController(MockCommon.GetIGiftAidCalculatorService(), MockCommon.GetLoggerService<GiftAidController>());
 
+            // Querying the endpoint
             var result = giftAidController.Get(amount);
 
+            // Asserting the several tests
             if (amount > 0)
             {
                 _ = Assert.IsType<JsonResult>(result);

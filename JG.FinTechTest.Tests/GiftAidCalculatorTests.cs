@@ -15,7 +15,7 @@ namespace JG.FinTechTest.Tests
         [InlineData(100, 25)]
         public void Calculate(double amount, double expectedValue)
         {
-            GiftAidCalculator calculator = new GiftAidCalculator(MockCommon.GetIConfigService());
+            GiftAidCalculator calculator = new GiftAidCalculator(MockCommon.GetIConfigService(), MockCommon.GetLoggerService<GiftAidCalculator>());
             if(amount > 0)
             {
                 double result = calculator.Calculate(amount);
@@ -23,7 +23,7 @@ namespace JG.FinTechTest.Tests
             }
             else
             {
-                Assert.Throws<ArgumentOutOfRangeException>(() => calculator.Calculate(amount));
+                _ = Assert.Throws<ArgumentOutOfRangeException>(() => calculator.Calculate(amount));
             }
         }
     }

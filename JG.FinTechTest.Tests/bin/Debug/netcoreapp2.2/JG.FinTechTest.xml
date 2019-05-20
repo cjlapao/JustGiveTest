@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JG.FinTechTest</name>
+    </assembly>
+    <members>
+        <member name="M:JG.FinTechTest.Controllers.GiftAidController.Get(System.Double)">
+            <summary>
+            Calculates a Gift Aid based on the tax and the provided amount
+            </summary>
+            <param name="amount">Amount for calculation</param>
+            <returns><see cref="T:JG.FinTechTest.Models.GiftAidGetResultViewModel"/> Result</returns>
+            <returns><see cref="T:JG.FinTechTest.Models.ApiError"/> Result</returns>
+        </member>
+    </members>
+</doc>

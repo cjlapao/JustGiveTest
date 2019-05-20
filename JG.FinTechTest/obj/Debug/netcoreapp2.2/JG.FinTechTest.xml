@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JG.FinTechTest</name>
+    </assembly>
+    <members>
+        <member name="M:JG.FinTechTest.Controllers.GiftAidController.Get(System.Double)">
+            <summary>
+            Calculates a Gift Aid based on the tax and the provided amount
+            </summary>
+            <param name="amount">Amount for calculation</param>
+            <returns><see cref="T:JG.FinTechTest.Models.GiftAidGetResultViewModel"/> Result</returns>
+            <returns><see cref="T:JG.FinTechTest.Models.ApiError"/> Result</returns>
+        </member>
+        <member name="M:JG.FinTechTest.Controllers.GiftAidDeclarationsController.Post(JG.FinTechTest.Models.GiftAidDeclarationModel)">
+            <summary>
+            Creates a GiftAidDeclaration in the database
+            </summary>
+            <param name="giftAidDeclaration"><see cref="T:JG.FinTechTest.Persistence.GiftAidDeclaration"/></param>
+            <returns><see cref="T:JG.FinTechTest.Persistence.GiftAidDeclaration"/></returns>
+        </member>
+    </members>
+</doc>

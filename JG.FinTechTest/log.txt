@@ -1,0 +1,48 @@
+2019-05-20 09:42:47.999 +01:00 [Information] User profile is available. Using '"C:\Users\carlos.lapao\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-20 09:42:49.302 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/giftaid  
+2019-05-20 09:42:49.388 +01:00 [Information] Executing endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 09:42:49.421 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"GiftAid\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get(Double)" on controller "JG.FinTechTest.Controllers.GiftAidController" ("JG.FinTechTest").
+2019-05-20 09:42:49.453 +01:00 [Information] Executing action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" - Validation state: Invalid
+2019-05-20 09:42:49.456 +01:00 [Information] Invalid amount provided
+2019-05-20 09:42:49.462 +01:00 [Information] Executed action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 3.3524ms.
+2019-05-20 09:42:49.470 +01:00 [Information] Executing ObjectResult, writing value of type '"JG.FinTechTest.Models.ApiError"'.
+2019-05-20 09:42:49.547 +01:00 [Information] Executed action "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" in 119.9179ms
+2019-05-20 09:42:49.550 +01:00 [Information] Executed endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 09:42:49.564 +01:00 [Information] Request finished in 264.0994ms 400 application/json; charset=utf-8
+2019-05-20 20:12:33.419 +01:00 [Information] User profile is available. Using '"C:\Users\cjlap\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-20 20:12:36.196 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/giftaid  
+2019-05-20 20:12:36.423 +01:00 [Information] Executing endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 20:12:36.491 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"GiftAid\"}". Executing action "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"
+2019-05-20 20:12:36.566 +01:00 [Information] Executing action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" with arguments (["0"]) - Validation state: Invalid
+2019-05-20 20:12:36.572 +01:00 [Information] Invalid amount provided
+2019-05-20 20:12:36.580 +01:00 [Information] Executed action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 5.8401ms.
+2019-05-20 20:12:36.599 +01:00 [Information] Executing ObjectResult, writing value of type '"JG.FinTechTest.Models.ApiError"'.
+2019-05-20 20:12:36.836 +01:00 [Information] Executed action "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" in 258.4268ms
+2019-05-20 20:12:36.843 +01:00 [Information] Executed endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 20:12:36.869 +01:00 [Information] Request finished in 693.0341ms 400 application/json; charset=utf-8
+2019-05-20 20:12:37.052 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico  
+2019-05-20 20:12:37.103 +01:00 [Information] Request finished in 10.4907ms 404 
+2019-05-20 20:12:40.354 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger  
+2019-05-20 20:12:40.357 +01:00 [Information] Request finished in 2.9995ms 302 
+2019-05-20 20:12:40.396 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-05-20 20:12:40.637 +01:00 [Information] Request finished in 240.1757ms 200 text/html; charset=utf-8
+2019-05-20 20:12:40.861 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-05-20 20:12:42.234 +01:00 [Information] Request finished in 1373.3887ms 200 application/json; charset=utf-8
+2019-05-20 20:13:20.918 +01:00 [Information] User profile is available. Using '"C:\Users\cjlap\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-20 20:13:23.132 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/api/giftaid  
+2019-05-20 20:13:23.322 +01:00 [Information] Executing endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 20:13:23.369 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"GiftAid\"}". Executing action "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"
+2019-05-20 20:13:23.433 +01:00 [Information] Executing action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" with arguments (["0"]) - Validation state: Invalid
+2019-05-20 20:13:23.439 +01:00 [Information] Invalid amount provided
+2019-05-20 20:13:23.447 +01:00 [Information] Executed action method "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)", returned result "Microsoft.AspNetCore.Mvc.BadRequestObjectResult" in 6.2219ms.
+2019-05-20 20:13:23.465 +01:00 [Information] Executing ObjectResult, writing value of type '"JG.FinTechTest.Models.ApiError"'.
+2019-05-20 20:13:23.568 +01:00 [Information] Executed action "JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)" in 190.3671ms
+2019-05-20 20:13:23.571 +01:00 [Information] Executed endpoint '"JG.FinTechTest.Controllers.GiftAidController.Get (JG.FinTechTest)"'
+2019-05-20 20:13:23.600 +01:00 [Information] Request finished in 475.0638ms 400 application/json; charset=utf-8
+2019-05-20 20:14:30.634 +01:00 [Information] User profile is available. Using '"C:\Users\cjlap\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-05-20 20:14:32.888 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger  
+2019-05-20 20:14:33.004 +01:00 [Information] Request finished in 114.0109ms 302 
+2019-05-20 20:14:33.017 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-05-20 20:14:33.414 +01:00 [Information] Request finished in 364.7799ms 200 text/html; charset=utf-8
+2019-05-20 20:14:33.796 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-05-20 20:14:35.137 +01:00 [Information] Request finished in 1342.4939ms 200 application/json; charset=utf-8
